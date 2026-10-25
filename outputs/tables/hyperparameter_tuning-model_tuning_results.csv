@@ -1,0 +1,11 @@
+,Model,Best CV RMSE,Best Parameters
+0,XGBoost,1091.5253087320918,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 100, 'model__subsample': 1.0}"
+1,Gradient Boosting,1092.5033544235416,"{'model__learning_rate': 0.03, 'model__max_depth': 3, 'model__n_estimators': 200}"
+2,LightGBM,1094.4993923316188,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.03, 'model__max_depth': 3, 'model__n_estimators': 200, 'model__num_leaves': 15, 'model__subsample': 0.8}"
+3,Random Forest,1113.2833045050606,"{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 200}"
+4,SVR,1131.7287535185296,"{'model__C': 100, 'model__epsilon': 0.2, 'model__kernel': 'rbf'}"
+5,KNN,1137.1084182460097,"{'model__n_neighbors': 11, 'model__p': 2, 'model__weights': 'uniform'}"
+6,Ridge,1145.358827577061,{'model__alpha': 0.1}
+7,Linear Regression,1145.359410542342,{'model__fit_intercept': True}
+8,Lasso,1145.6145096938988,"{'model__alpha': 1.0, 'model__max_iter': 20000}"
+9,Elastic Net,1153.4697549173993,"{'model__alpha': 0.1, 'model__l1_ratio': 0.8, 'model__max_iter': 20000}"

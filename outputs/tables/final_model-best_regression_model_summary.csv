@@ -1,0 +1,12 @@
+,Value
+Model,XGBoost
+Initial CV RMSE,1191.068858386423
+Initial CV RMSE Std,13.48383137848177
+Initial Test RMSE,1106.7151778273849
+Initial Test MAE,770.0943650459155
+Initial Test R2,0.549362776331775
+Tuned CV RMSE,1091.5253087320918
+Tuned Test RMSE,1020.8892265046862
+Tuned Test MAE,718.5483762810009
+Tuned Test R2,0.6165466185245131
+Best Parameters,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 100, 'model__subsample': 1.0}"
