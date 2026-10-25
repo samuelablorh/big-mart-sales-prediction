@@ -1,0 +1,5 @@
+,feature,lower_bound,upper_bound,outlier_count,outlier_percentage
+1,Item_Visibility,-0.07440424500000001,0.195979015,144,1.69
+0,Item_Weight,-3.340625000000003,28.964375000000004,0,0.0
+2,Item_MRP,-43.8993,323.3695,0,0.0
+3,Outlet_Establishment_Year,1961.5,2029.5,0,0.0
